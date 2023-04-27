@@ -19,5 +19,5 @@ make install opensnitch
 ````
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/2742953/85205382-6ba9cb00-b31b-11ea-8e9a-bd4b8b05a236.png" alt="OpenSnitch"/>
+  <img src="https://raw.githubusercontent.com/xenetis/scripts/main/opensnitch/screenshot.png" alt="OpenSnitch"/>
 </p>
