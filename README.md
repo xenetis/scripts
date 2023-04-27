@@ -12,10 +12,12 @@ sudo apt install git make curl -y
 git clone https://github.com/xenetis/scripts
 cd scripts
 ````
-## Install (ex: opensnitch)
+## Install examples
 ````shell
-make install opensnitch
+make install brave
 make install google-chrome
+make install opensnitch
+make install virtualbox
 ````
 
 ---
@@ -31,6 +33,10 @@ make install google-chrome
 ## Firewall
 
 [Opensnitch](opensnitch) - Installation script for Opensnitch a GNU/Linux application firewall.
+
+## Virtual Machine
+
+[Virtualbox](virtualbox) - Installation script for Virtualbox a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.
 
 
 
