@@ -15,6 +15,7 @@ cd scripts
 ## Install (ex: opensnitch)
 ````shell
 make install opensnitch
+make install google-chrome
 ````
 
 ---
