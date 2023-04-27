@@ -8,6 +8,7 @@ Easy install and administrate your Debian / Ubuntu applications and services
 
 ## Download project
 ````shell
+sudo apt install git make curl -y
 git clone https://github.com/xenetis/scripts
 cd scripts
 ````
@@ -23,3 +24,4 @@ make install opensnitch
 ## Firewall
 
 [Opensnitch](opensnitch) - Installation script for Opensnitch a GNU/Linux application firewall.
+[Google Chrome](google-chrome) - Installation script for Google Chrome web browser.

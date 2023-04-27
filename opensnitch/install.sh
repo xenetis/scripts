@@ -11,7 +11,7 @@ wget "${DOWNLOAD_URL}"
 FILENAME=$(basename "${DOWNLOAD_URL}")
 printf "================== \n Install: %s \n==================\n" "${FILENAME}"
 sudo dpkg -i "${FILENAME}"
-sudo apt-get install -f
+sudo apt-get install -f -y
 rm -f "${FILENAME}"
 
 
@@ -26,9 +26,9 @@ FILENAME=$(basename "${DOWNLOAD_URL}")
 printf "================== \n Install: %s \n==================\n" "${FILENAME}"
 sudo apt install python3-pip python3-pyasn
 sudo dpkg -i "${FILENAME}"
-sudo apt-get install -f
+sudo apt-get install -f -y
 pip3 install --ignore-installed grpcio==1.44.0
-pip3 install qt-material
+pip3 install qt-material -y
 rm -f "${FILENAME}"
 
 systemctl enable opensnitch
