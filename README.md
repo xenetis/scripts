@@ -22,7 +22,15 @@ make install google-chrome
 
 # Scripts
 
+## Browser
+
+[Brave](brave) - Installation script for Brave web browser.
+
+[Google Chrome](google-chrome) - Installation script for Google Chrome web browser.
+
 ## Firewall
 
 [Opensnitch](opensnitch) - Installation script for Opensnitch a GNU/Linux application firewall.
-[Google Chrome](google-chrome) - Installation script for Google Chrome web browser.
+
+
+
