@@ -15,6 +15,7 @@ cd scripts
 ## Install examples
 ````shell
 make install brave
+make install docker
 make install google-chrome
 make install opensnitch
 make install virtualbox
@@ -34,7 +35,9 @@ make install virtualbox
 
 [Opensnitch](opensnitch) - Installation script for Opensnitch a GNU/Linux application firewall.
 
-## Virtual Machine
+## Virtual Machine - Container
+
+[Docker](docker) - Installation script for Docker is a platform designed to help developers build, share, and run modern applications.
 
 [Virtualbox](virtualbox) - Installation script for Virtualbox a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.
 
