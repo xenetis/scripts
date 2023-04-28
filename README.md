@@ -8,7 +8,7 @@ Easy install and administrate your Debian / Ubuntu applications and services
 
 ## Download project
 ````shell
-sudo apt install git make curl -y
+sudo apt install git make curl lsb-release -y
 git clone https://github.com/xenetis/scripts
 cd scripts
 ````
