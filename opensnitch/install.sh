@@ -34,3 +34,7 @@ rm -f "${FILENAME}"
 systemctl enable opensnitch
 systemctl start opensnitch
 printf "================== \n Just run: opensnitch-ui \n==================\n"
+
+sudo cp ~/.config/autostart/opensnitch_ui.desktop $(xdg-user-dir DESKTOP)
+gio set $(xdg-user-dir DESKTOP)/opensnitch_ui.desktop metadata::trusted true
+sudo chmod a+x $(xdg-user-dir DESKTOP)/opensnitch_ui.desktop

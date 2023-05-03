@@ -10,3 +10,8 @@ cd "${DIR}"
 cd ..
 rm -rf "${DIR}"
 rm jetbrains-toolbox.tar.gz
+
+# Add Desktop icon
+sudo cp ~/.local/share/applications/jetbrains-toolbox.desktop $(xdg-user-dir DESKTOP)
+gio set $(xdg-user-dir DESKTOP)/jetbrains-toolbox.desktop metadata::trusted true
+sudo chmod a+x $(xdg-user-dir DESKTOP)/jetbrains-toolbox.desktop
