@@ -23,6 +23,15 @@ make install virtualbox
 
 ---
 
+# Or direct installation
+
+For example opensnitch: 
+````shell
+wget -O - https://raw.githubusercontent.com/xenetis/scripts/main/opensnitch/install.sh | bash
+````
+
+---
+
 # Scripts
 
 ## Browser
