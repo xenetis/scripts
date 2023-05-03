@@ -28,7 +28,7 @@ sudo apt install python3-pip python3-pyasn
 sudo dpkg -i "${FILENAME}"
 sudo apt-get install -f -y
 pip3 install --ignore-installed grpcio==1.44.0
-pip3 install qt-material -y
+pip3 install qt-material
 rm -f "${FILENAME}"
 
 systemctl enable opensnitch
