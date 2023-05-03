@@ -17,6 +17,7 @@ cd scripts
 make install brave
 make install docker
 make install google-chrome
+make install jetbrains-toolbox
 make install opensnitch
 make install virtualbox
 ````
@@ -39,6 +40,10 @@ wget -O - https://raw.githubusercontent.com/xenetis/scripts/main/opensnitch/inst
 [Brave](brave) - Installation script for Brave web browser.
 
 [Google Chrome](google-chrome) - Installation script for Google Chrome web browser.
+
+## Development tools
+
+[Jetbrains Toolbox](jetbrains-toolbox) - Installation script for Jetbrains toolbox.
 
 ## Firewall
 
