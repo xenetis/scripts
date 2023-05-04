@@ -6,10 +6,12 @@ default:
     - make install brave \n\
     - make install docker \n\
     - make install google-chrome \n\
+    - make install jetbrains-toolbox \n\
+    - make install k6 \n\
     - make install opensnitch \n\
     - make install virtualbox \n\
 	"
-	sudo apt install git make curl lsb-release -y
+	sudo apt install git make curl lsb-release gpg -y
 
 install:
 	./$(filter-out $@,$(MAKECMDGOALS))/install.sh

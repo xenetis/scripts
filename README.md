@@ -41,6 +41,10 @@ wget -O - https://raw.githubusercontent.com/xenetis/scripts/main/opensnitch/inst
 
 [Google Chrome](google-chrome) - Installation script for Google Chrome web browser.
 
+## Commandline tools
+
+[K6](k6) - Installation script for K6 load testing tool
+
 ## Development tools
 
 [Jetbrains Toolbox](jetbrains-toolbox) - Installation script for Jetbrains toolbox.
