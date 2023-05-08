@@ -45,6 +45,10 @@ wget -O - https://raw.githubusercontent.com/xenetis/scripts/main/opensnitch/inst
 
 [K6](k6) - Installation script for K6 load testing tool
 
+## Database tools
+
+[Dbeaver](dbeaver) - Installation script for Dbeaver
+
 ## Development tools
 
 [Jetbrains Toolbox](jetbrains-toolbox) - Installation script for Jetbrains toolbox.

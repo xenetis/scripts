@@ -4,6 +4,7 @@
 default:
 	echo "\
     - make install brave \n\
+    - make install dbeaver \n\
     - make install docker \n\
     - make install google-chrome \n\
     - make install jetbrains-toolbox \n\
