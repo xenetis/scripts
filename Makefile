@@ -9,6 +9,7 @@ default:
     - make install google-chrome \n\
     - make install jetbrains-toolbox \n\
     - make install k6 \n\
+    - make install minecraft \n\
     - make install opensnitch \n\
     - make install virtualbox \n\
 	"

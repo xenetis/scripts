@@ -18,6 +18,7 @@ make install brave
 make install docker
 make install google-chrome
 make install jetbrains-toolbox
+make install minecraft
 make install opensnitch
 make install virtualbox
 ````
@@ -56,6 +57,10 @@ wget -O - https://raw.githubusercontent.com/xenetis/scripts/main/opensnitch/inst
 ## Firewall
 
 [Opensnitch](opensnitch) - Installation script for Opensnitch a GNU/Linux application firewall.
+
+## Games 
+
+[Minecraft](minecraft) - Installation script for Minecraft Game.
 
 ## Virtual Machine - Container
 
