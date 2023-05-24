@@ -1,4 +1,4 @@
-# VIRTUALBOX
+# K6
 
 A simple script designed for **Debian / Ubuntu** to install the last stable release of **K6** .
 
@@ -14,6 +14,7 @@ cd scripts
 make install k6
 ````
 
+## Run
 You can try k6 with **k6-example.js** 
 ````shell
 k6 run k6/k6-example.js

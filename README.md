@@ -12,15 +12,31 @@ sudo apt install git make curl lsb-release -y
 git clone https://github.com/xenetis/scripts
 cd scripts
 ````
-## Install examples
+
+## Install scripts
 ````shell
 make install brave
+make install dbeaver
 make install docker
 make install google-chrome
 make install jetbrains-toolbox
+make install k6
 make install minecraft
 make install opensnitch
 make install virtualbox
+````
+
+## Uninstall scripts
+````shell
+make uninstall brave
+make uninstall dbeaver
+make uninstall docker
+make uninstall google-chrome
+make uninstall jetbrains-toolbox
+make uninstall k6
+make uninstall minecraft
+make uninstall opensnitch
+make uninstall virtualbox
 ````
 
 ---

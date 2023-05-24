@@ -17,3 +17,6 @@ default:
 
 install:
 	./$(filter-out $@,$(MAKECMDGOALS))/install.sh
+
+uninstall:
+	./$(filter-out $@,$(MAKECMDGOALS))/uninstall.sh
