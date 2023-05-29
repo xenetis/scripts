@@ -7,8 +7,7 @@ mkdir -p $(xdg-user-dir)/.local/share/JetBrains
 wget -cO $(xdg-user-dir DOWNLOAD)/jetbrains-pycharm-ce.tar.gz "https://data.services.jetbrains.com/products/download?platform=linux&code=PCC"
 cd $(xdg-user-dir DOWNLOAD)
 tar -xzf jetbrains-pycharm-ce.tar.gz
-
-
+rm jetbrains-pycharm-ce.tar.gz
 
 DIR=$(find . -maxdepth 1 -type d -name pycharm-community-\* -print | head -n1)
 mv ${DIR} $(xdg-user-dir)/.local/share/JetBrains/Pycharm-Community
