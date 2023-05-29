@@ -20,6 +20,7 @@ make install dbeaver
 make install docker
 make install google-chrome
 make install jetbrains-toolbox
+make install jetbrains-pycharm-ce
 make install k6
 make install minecraft
 make install opensnitch
@@ -33,6 +34,7 @@ make uninstall dbeaver
 make uninstall docker
 make uninstall google-chrome
 make uninstall jetbrains-toolbox
+make uninstall jetbrains-pycharm-ce
 make uninstall k6
 make uninstall minecraft
 make uninstall opensnitch
@@ -68,7 +70,9 @@ wget -O - https://raw.githubusercontent.com/xenetis/scripts/main/opensnitch/inst
 
 ## Development tools
 
-[Jetbrains Toolbox](jetbrains-toolbox) - Installation script for Jetbrains toolbox.
+[Jetbrains Toolbox](jetbrains-toolbox) - Installation script for Jetbrains Toolbox.
+
+[Jetbrains Pycharm Community](jetbrains-pycharm-ce) - Installation script for Jetbrains Pycharm Community Edition.
 
 ## Firewall
 
