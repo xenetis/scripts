@@ -8,7 +8,7 @@ Easy install and administrate your Debian / Ubuntu applications and services
 
 ## Download project
 ````shell
-sudo apt install git make curl lsb-release -y
+sudo apt install git make curl lsb-release gpg -y
 git clone https://github.com/xenetis/scripts
 cd scripts
 ````
@@ -18,6 +18,7 @@ cd scripts
 make install brave
 make install dbeaver
 make install docker
+make install electrum
 make install google-chrome
 make install jetbrains-toolbox
 make install jetbrains-pycharm-ce
@@ -53,6 +54,10 @@ wget -O - https://raw.githubusercontent.com/xenetis/scripts/main/opensnitch/inst
 ---
 
 # Scripts
+
+## Bitcoin 
+
+[Electrum Bitcoin Wallet](electrum) - Installation script for Electrum Bitcoin Wallet. 
 
 ## Browser
 
