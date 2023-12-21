@@ -12,6 +12,7 @@ default:
     - make install minecraft \n\
     - make install opensnitch \n\
     - make install virtualbox \n\
+    - make install zenmap \n\
 	"
 	sudo apt install git make curl lsb-release gpg -y
 

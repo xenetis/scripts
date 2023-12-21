@@ -26,6 +26,7 @@ make install k6
 make install minecraft
 make install opensnitch
 make install virtualbox
+make install zenmap
 ````
 
 ## Uninstall scripts
@@ -40,6 +41,7 @@ make uninstall k6
 make uninstall minecraft
 make uninstall opensnitch
 make uninstall virtualbox
+make uninstall zenmap
 ````
 
 ---
@@ -93,5 +95,6 @@ wget -O - https://raw.githubusercontent.com/xenetis/scripts/main/opensnitch/inst
 
 [Virtualbox](virtualbox) - Installation script for Virtualbox a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.
 
+## Network
 
-
+[Zenmap](zenmap) - Installation script for Zenmap a GUI for Nmap
