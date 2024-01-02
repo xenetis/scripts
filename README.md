@@ -25,6 +25,7 @@ make install jetbrains-pycharm-ce
 make install k6
 make install minecraft
 make install opensnitch
+make install redis-insight
 make install virtualbox
 make install zenmap
 ````
@@ -40,6 +41,7 @@ make uninstall jetbrains-pycharm-ce
 make uninstall k6
 make uninstall minecraft
 make uninstall opensnitch
+make uninstall redis-insight
 make uninstall virtualbox
 make uninstall zenmap
 ````
@@ -74,6 +76,8 @@ wget -O - https://raw.githubusercontent.com/xenetis/scripts/main/opensnitch/inst
 ## Database tools
 
 [Dbeaver](dbeaver) - Installation script for Dbeaver
+
+[Redis Insight](redis-insight) - Installation script for Redis Insight
 
 ## Development tools
 

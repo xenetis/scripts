@@ -11,6 +11,7 @@ default:
     - make install k6 \n\
     - make install minecraft \n\
     - make install opensnitch \n\
+    - make install redis-insight \n\
     - make install virtualbox \n\
     - make install zenmap \n\
 	"
