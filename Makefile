@@ -12,6 +12,7 @@ default:
     - make install minecraft \n\
     - make install opensnitch \n\
     - make install redis-insight \n\
+    - make install teamviewer-client \n\
     - make install virtualbox \n\
     - make install zenmap \n\
 	"

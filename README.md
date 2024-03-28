@@ -26,6 +26,7 @@ make install k6
 make install minecraft
 make install opensnitch
 make install redis-insight
+make install teamviewer-client
 make install virtualbox
 make install zenmap
 ````
@@ -42,6 +43,7 @@ make uninstall k6
 make uninstall minecraft
 make uninstall opensnitch
 make uninstall redis-insight
+make uninstall teamviewer-client
 make uninstall virtualbox
 make uninstall zenmap
 ````
@@ -100,5 +102,7 @@ wget -O - https://raw.githubusercontent.com/xenetis/scripts/main/opensnitch/inst
 [Virtualbox](virtualbox) - Installation script for Virtualbox a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.
 
 ## Network
+
+[Teamviewer Client](teamviewer-client) - Installation script for Teamviewer Client
 
 [Zenmap](zenmap) - Installation script for Zenmap a GUI for Nmap
