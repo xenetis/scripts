@@ -87,6 +87,8 @@ wget -O - https://raw.githubusercontent.com/xenetis/scripts/main/opensnitch/inst
 
 [Jetbrains Pycharm Community](jetbrains-pycharm-ce) - Installation script for Jetbrains Pycharm Community Edition.
 
+[Jetbrains Intellij Idea Community](jetbrains-intellij-idea-ce) - Installation script for Jetbrains Intellij Idea Community Edition.
+
 ## Firewall
 
 [Opensnitch](opensnitch) - Installation script for Opensnitch a GNU/Linux application firewall.
