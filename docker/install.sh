@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-curl -fsSLo /etc/apt/trusted.gpg.d/docker.gpg https://download.docker.com/linux/ubuntu/gpg
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/docker.gpg
 echo "deb [signed-by=/etc/apt/trusted.gpg.d/docker.gpg arch=$(dpkg --print-architecture)] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list
 
 sudo apt-get update
